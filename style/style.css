@@ -143,3 +143,95 @@ body {
 	margin-bottom: 30px;
 	flex-basis: 31%;
 }
+.card-image {
+	max-width: 384px;
+	max-height: 250px;
+	object-fit: cover;
+}
+
+.card-text {
+	padding-top: 20px;
+	padding-bottom: 35px;
+	padding-left: 23px;
+	padding-right: 23px;
+}
+
+.card-heading {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.card-title {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 32px;
+	margin-left: 20px;
+}
+
+.card-title-reg {
+	display: flex;
+	flex-wrap: wrap;
+	font-weight: 400;
+}
+
+.card-tag {
+	color: #fff;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 20px;
+	background: #262626;
+	border-radius: 2px;
+	padding: 1px 8px;
+	margin-right: 10px;
+}
+
+.card-info {
+	display: flex;
+	align-items: center;
+	margin-bottom: 40px;
+	margin-top: -10px;
+	margin-left: 20px;
+	flex-wrap: wrap;
+}
+.restaurant-info {
+	display: flex;
+}
+
+.card-price-bold {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 32px;
+	color: #000000;
+}
+
+.card-buttons {
+	margin-left: 20px;
+}
+.rating {
+	margin-right: 26px;
+	color: #FFC107;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 32px;
+}
+
+.price, .category {
+	color: #8C8C8C;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 32px;
+}
+
+.ingredients {
+	color: #8c8c8c;
+	font-size: 18px;
+	line-height: 21px;
+	margin-left: 18px;
+}
+
